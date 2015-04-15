@@ -11,3 +11,8 @@
 // about supported directives.
 //
 //=require bootstrap-sprockets
+//=require "agency"
+//=require "cbpAnimatedHeader"
+//=require "classie"
+//=require "contact_me"
+//=require "jqBootstrapValidation"
