@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+
   get 'home/index'
 
-  resources :todos
+  resources :todos do
+    get "destroy" => "todos#destroy", as: "delete"
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
